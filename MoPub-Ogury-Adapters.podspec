@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'FireAdverting'
+  s.name             = 'MoPub-Ogury-Adapters'
   s.version          = '0.1.0'
   s.summary          = 'A short description of GPFireable.'
 
