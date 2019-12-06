@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'MoPub-Ogury-Adapters'
+  s.name             = 'FireAdverting'
   s.version          = '0.1.0'
   s.summary          = 'A short description of GPFireable.'
 
@@ -30,9 +30,9 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '10.0'
 
+  s.static_framework = true
   s.source_files = 'MoPub-Ogury-Adapters/*'
 
-  s.dependency 'OguryAds', '1.2.2'
-  # s.dependency 'OguryConsentManager', '1.2.6'
+  s.dependency 'OguryAds'
 
 end
