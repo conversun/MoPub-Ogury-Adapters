@@ -1,15 +1,8 @@
-#
-# Be sure to run `pod lib lint GPFireable.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see https://guides.cocoapods.org/syntax/podspec.html
-#
 
 Pod::Spec.new do |s|
   s.name             = 'MoPub-Ogury-Adapters'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of GPFireable.'
+  s.version          = '5.10.0'
+  s.summary          = 'MoPub-Ogury-Adapters'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -29,10 +22,10 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
-
   s.static_framework = true
   s.source_files = 'MoPub-Ogury-Adapters/*'
 
+  s.dependency 'mopub-ios-sdk', '5.10.0'
   s.dependency 'OguryAds'
 
 end
