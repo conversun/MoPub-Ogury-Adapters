@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MoPub-Ogury-Adapters'
-  s.version          = '5.10.1'
+  s.version          = '5.12.1'
   s.summary          = 'MoPub-Ogury-Adapters'
 
 # This description is used to generate tags and improve search results.
@@ -25,7 +25,7 @@ TODO: Add long description of the pod here.
   s.static_framework = true
   s.source_files = 'MoPub-Ogury-Adapters/*'
 
-  s.dependency 'mopub-ios-sdk'
+  s.dependency 'mopub-ios-sdk/Core'
   s.dependency 'OguryAds'
   s.dependency 'OguryConsentManager'
 
